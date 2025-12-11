@@ -1,8 +1,17 @@
 // Complete the js code
-function Car(make, model) {}
+class car
+function Car(make, model) {
+	this.make = male;
+	this.model = model;
+}
 
-function SportsCar(make, model, topSpeed) {}
-
+topspeed(){
+	return"topspeed";
+	
+}
+ 
+const car = new SportsCar("Ferrari", "Testarossa", 200);
+console.log(car)
 // Do not change the code below
 window.Car = Car;
 window.SportsCar = SportsCar;
